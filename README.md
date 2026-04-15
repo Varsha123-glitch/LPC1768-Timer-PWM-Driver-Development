@@ -6,7 +6,7 @@
 - NVIC interrupt setup for Timer0 handling  
 - Modular and reusable driver design
 
-- ## Technologies Used
+ ## Technologies Used
 - Embedded C Programming  
 - ARM Cortex-M3 Architecture  
 - NXP LPC1768 Microcontroller  
