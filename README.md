@@ -20,5 +20,12 @@
 ├── pwm.h            # PWM driver header
 └── bits.h           # Bitwise utility macros
 
+## Working Principle
+-Timer0 is initialized to generate interrupts at fixed intervals.
+-Each timer interrupt triggers LED state toggling on GPIO output pin.
+-PWM1 is configured to generate PWM output on pin P2.0 (PWM1.1).
+-Match registers define PWM frequency and duty cycle values.
+
+
 
 
