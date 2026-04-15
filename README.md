@@ -27,7 +27,8 @@
 -PWM1 is configured to generate PWM output on pin P2.0 (PWM1.1).
 -Match registers define PWM frequency and duty cycle values.
 
-##Concepts Demonstrated
+
+## Concepts Demonstrated
 -Hardware timer initialization
 -Interrupt-driven embedded programming
 -PWM frequency and duty cycle control
@@ -35,7 +36,7 @@
 -Low-level register manipulation
 
 
-##How to Run
+## How to Run
 -Open the project in Keil uVision or any ARM-supported IDE.
 -Build and compile the source files.
 -Flash the program into LPC1768 using Flash Magic or equivalent tool.
@@ -44,12 +45,12 @@
 -PWM signal appears on P2.0 pin
 
 
-##Expected Output
+## Expected Output
 -Continuous LED blinking at fixed timer intervals
 -Stable PWM waveform with default configured duty cycle
 
 
-##Possible Enhancements
+## Possible Enhancements
 -Real-time PWM duty cycle adjustment using ADC input
 -UART serial debugging integration
 -Support for multiple PWM channels
