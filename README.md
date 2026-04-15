@@ -1,4 +1,4 @@
-Features :-
+Features :
 
 Timer0 based periodic interrupt generation
 
